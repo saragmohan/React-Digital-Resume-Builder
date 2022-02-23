@@ -12,15 +12,8 @@ function Header(props) {
                 <nav id="nav">
                     <ul>
                         <li className="special">
-                            <Link to="menu" className="menuToggle"><span>Menu</span></Link>
-                            <div id="menu">
-                                < ul >
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="#">About Us</Link></li>
-                                    <li><Link to="#">Sign Up</Link></li>
-                                    <li><Link to="#">Log In</Link></li>
-                                </ul>
-                            </div>
+                            <Link to="/nav-menu" className="menuToggle"><span>Menu</span></Link>
+
                         </li>
                     </ul>
                 </nav >
