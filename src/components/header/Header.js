@@ -8,14 +8,29 @@ import { IconContext } from 'react-icons/lib';
 
 function Header(props) {
 
+    // sidebar
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => setSidebar(!sidebar);
 
+    //to change background color of navbar on scroll
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
+
     return (
         <>
             <IconContext.Provider value={{ color: '#fff ' }}>
-                <div className="navbar">
+                <div className={navbar ? 'navbar active' : 'navbar'}>
                     <div className="nav-title">
                         <h3>SLEEKCVS</h3>
                     </div>

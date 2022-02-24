@@ -4,7 +4,7 @@
 	-ms-transition: background-color 0.2s ease;
 	transition: background-color 0.2s ease;
     background-color: #2e3842;
-    opacity: 0.7;
+    background-color: transparent;
     height: 50px;
     display: flex;
     justify-content: flex-start;
@@ -15,9 +15,13 @@
     z-index: 10000;
 }
 
+.navbar.active{
+    background-color: #2e3842;
+}
+
 .nav-title{
-    padding-top:20px;
-    padding-left: 10px;
+    padding-top:1.0rem;
+    padding-left: 0.7rem;
 }
 
 .menu-bars{
@@ -27,8 +31,9 @@
     border: none;
 }
 
+
 .menu-bars-close{
-    margin-top:50px;
+    margin-top:26%;
     margin-right: 10%;
     font-size: 1.8rem;
     background: none;

@@ -31,8 +31,8 @@ function Home(props) {
                 <section id="one" className="wrapper style1 special">
                     <div className="inner">
                         <header className="major">
-                            <h2>Arcu aliquet vel lobortis ata nisl<br />
-                                eget augue amet aliquet nisl cep donec</h2>
+                            <h2>Only 2% of resumes make it past the first round.<br />
+                                Be in the top 2%</h2>
                             <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
                                 fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
                         </header>
