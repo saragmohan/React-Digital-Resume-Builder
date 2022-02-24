@@ -2678,6 +2678,7 @@ input, select, textarea {
 			order: 1;
 			border-radius: 0;
 			width: 40%;
+			position: static;
 		}
 
 			.spotlight .image img {
@@ -3440,7 +3441,7 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	/* #header {
 		-moz-transition: background-color 0.2s ease;
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
@@ -3559,7 +3560,7 @@ input, select, textarea {
 			#header.alt h1 {
 				pointer-events: none;
 				opacity: 0;
-			}
+			} */
 
 /* Banner */
 
@@ -3580,7 +3581,7 @@ input, select, textarea {
 		height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
-		position: relative;
+		position: static;
 		text-align: center;
 	}
 
@@ -3750,7 +3751,7 @@ input, select, textarea {
 		opacity: 1;
 	}
 
-/* CTA */
+/* CTA
 
 	#cta .inner {
 		display: -moz-flex;
@@ -3808,7 +3809,7 @@ input, select, textarea {
 				max-width: none;
 			}
 
-		}
+		} */
 
 /* Main */
 
