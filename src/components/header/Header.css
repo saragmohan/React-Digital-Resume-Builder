@@ -24,6 +24,10 @@
     padding-left: 0.7rem;
 }
 
+.nav-title h3 a{
+   border: none;
+}
+
 .menu-bars{
     margin-left: 88%;
     font-size: 1.8rem;

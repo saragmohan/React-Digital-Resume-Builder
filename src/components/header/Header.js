@@ -32,7 +32,7 @@ function Header(props) {
             <IconContext.Provider value={{ color: '#fff ' }}>
                 <div className={navbar ? 'navbar active' : 'navbar'}>
                     <div className="nav-title">
-                        <h3>SLEEKCVS</h3>
+                        <h3><Link to='/'>SLEEKCVS</Link></h3>
                     </div>
                     <Link to="#" className="menu-bars">
                         <FaIcons.FaBars onClick={showSidebar} />
