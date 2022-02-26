@@ -44,6 +44,40 @@
     border: none;
 }
 
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .menu-bars {
+      margin-left: 88%;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .menu-bars {
+        margin-left: 77%;
+      }
+    }
+    
+    @media screen and (max-device-width: 720px) {
+    .menu-bars {
+        margin-left: 73%;
+      }
+
+    }
+
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .menu-bars {
+        margin-left: 58%;
+      }
+
+    }
+
+
 .nav-menu{
     background-color: #2e3842;
     opacity: 0.7;
